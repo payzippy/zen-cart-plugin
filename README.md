@@ -1,4 +1,4 @@
-=== Zen-cart PayZippy Payment Gateway === Contributors: payzippy Tags: Zen-cart, PayZippy, Payment Gateway, Debit Card, Credit Card, NetBanking Requires at least: 1.5 Tested up to: 1.6.2 License: GPLv2 or later License URI: http://www.gnu.org/licenses/gpl-2.0.html
+=== Zen-cart PayZippy Payment Gateway === Contributors: payzippy Tags: Zen-cart, PayZippy, Payment Gateway, Debit Card, Credit Card, NetBanking Tested for: 1.5.x License: GPLv2 or later License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Use PayZippy Payment Gateway in your Zen-cart store to accept Debit Cards, Credit Cards, Net Banking and EMI.
 
