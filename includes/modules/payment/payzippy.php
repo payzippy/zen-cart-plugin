@@ -268,7 +268,7 @@ class payzippy extends base {
         );
 
         zen_db_perform(MODULE_PAYMENT_PAYZIPPY_TABLE, $response_array, 'update', "transaction_id = '" . $in_payzippytransid . "'");
-        zen_redirect(zen_href_link(FILENAME_ACCOUNT_HISTORY_INFO, 'order_id='.$zen_order_id, 'SSL', true, false));
+        //zen_redirect(zen_href_link(FILENAME_ACCOUNT_HISTORY_INFO, 'order_id='.$zen_order_id, 'SSL', true, false));
     }
 
     function admin_notification($zen_order_id) {
