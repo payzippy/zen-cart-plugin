@@ -5,7 +5,7 @@ require_once 'includes/modules/payment/payzippy/Constants.php';
 
 global $_GET, $messageStack;
 
-$charging_response = new ChargingResponse($_GET);
+$charging_response = new ChargingResponse($_POST);
 $charging_response->set_secret_key(MODULE_PAYMENT_PAYZIPPY_KEY);
 $hash_match = $charging_response->validate();
 
