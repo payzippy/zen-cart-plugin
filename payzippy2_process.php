@@ -3,9 +3,9 @@ require_once 'includes/application_top_payzippy.php';
 require_once 'includes/modules/payment/payzippy/ChargingResponse.php';
 require_once 'includes/modules/payment/payzippy/Constants.php';
 
-global $_POST, $messageStack;
+global $_REQUEST, $messageStack;
 
-$charging_response = new ChargingResponse($_POST);
+$charging_response = new ChargingResponse($_REQUEST);
 $charging_response->set_secret_key(MODULE_PAYMENT_PAYZIPPY_KEY);
 $hash_match = $charging_response->validate();
 
